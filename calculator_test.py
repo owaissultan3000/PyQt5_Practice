@@ -29,7 +29,7 @@ class CalculatorTest(unittest.TestCase):
         QTest.mouseClick(self.btn_2, Qt.LeftButton)
         QTest.mouseClick(self.equal_btn, Qt.LeftButton)
         assert self.test.label.text() == "15"
-        q
+
 
     def get_input_buttons(self) -> QPushButton:
         btn_1 = self.test.b3
